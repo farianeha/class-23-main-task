@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix-width{
+    width: 1224px;
+    margin: auto;
+}
+
+
+.header-section{
+    background-color: black;
+    display: flex;
+}
+
+.main-header-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+   width: 30%; 
+}
+.logo img {
+    width: 140px;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+
+.menu{
+    width: 70%;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+      
+}
+.menu ul li{
+    padding: 10px 15px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    border-bottom: 1.5px solid white;
+}
+
+/* ------------ banner section ------- */
+
+.banner-section{
+    margin: 45px 0;
+}
+
+.banner-main{
+    display: flex; 
+}
+
+.left-slider{ 
+    width: 75%;
+}
+
+.banner-01 {
+    display: flex;
+    padding: 22px;
+    margin-top: 34px;
+}
+
+.banner-01-banner-item {
+    border: 2px solid green;
+    width: 32%;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.banner-01-banner-item:last-child{
+    margin-right: 0;
+}
+
+.center-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-3 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.banner-01-banner-item p{
+    background-color: red;
+    padding: 11px 15px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+}
+
+.banner-02{
+    display: flex;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.banner-02-items {
+    border: 2px solid green;
+    padding: 12px;
+    margin-right: 14px;
+    flex: 1 0 1%;
+}
+
+.banner-2-bigger{
+    flex-grow: 2;
+}
+
+.banner-02-items:last-child{
+    margin-right: 0;
+}
+
+.banner-02-items p{}
+
+
+.right-slider {
+    width: 25%;
+    border-left: 3.5px solid red;
+    background-color: #d2d2d2;
+    padding: 22px;
+}
+.right-slider h2{}
+.right-slider img{
+    max-width: 100%;
+    padding: 15px 0;
+}
+.right-slider p{
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 270px;
+}
+
+
+.banner-03{
+    padding-bottom: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    display: flex;
+}
+
+.banner-3-items {
+    width: 32%;
+    height: 200px;
+    border: 2px solid red;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.banner-3-items:last-child{
+    margin-right: 0;
+}
+
+.banner-3-items span{
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+    border-right: 1px solid green;
+    border-bottom: 1px solid green;
+}   
+
+.flex-box-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.flex-box-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+
+
+
+.flex-box-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn1 {
+    display: flex;
+    align-self: flex-start;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.btn3{
+    display: flex;
+    align-self: end;
+    justify-content: center;
+}
+
+.btnbtnbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---- footer section ------ */
+
+.footer-section{
+    background-color: black;
+    padding: 20px 0;
+}
+.footer-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-section ul li {
+    padding: 13px 23px;
+}
+.footer-section ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    position: relative;
+    border-bottom: 3px solid #ddd ;
+}
+
+/* .footer-section ul li a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+} */
+
+
+
+
